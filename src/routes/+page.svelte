@@ -63,7 +63,9 @@
 			Where developers gather to share knowledge, sip coffee, and build amazing things together.
 		</p>
 		<div class="hero-actions">
-			<Button variant="primary" size="large">Start Brewing 🚀</Button>
+			<a href="/dashboard">
+				<Button variant="primary" size="large">Start Brewing 🚀</Button>
+			</a>
 			<Button variant="secondary" size="large">Explore Menu 📖</Button>
 		</div>
 	</div>
@@ -161,6 +163,10 @@
 		display: flex;
 		gap: 1rem;
 		flex-wrap: wrap;
+	}
+
+	.hero-actions a {
+		text-decoration: none;
 	}
 
 	.hero-decoration {

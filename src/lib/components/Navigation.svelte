@@ -6,8 +6,8 @@
 	let isMenuOpen = $state(false);
 
 	const navItems = [
-		{ href: '/login', label: 'Log In', type: 'secondary' },
-		{ href: '/signup', label: 'Sign Up', type: 'primary' }
+		{ href: '/saved', label: 'Saved', type: 'secondary' },
+		{ href: '/dashboard', label: 'Dashboard', type: 'primary' }
 	];
 
 	function toggleMenu() {

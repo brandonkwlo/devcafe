@@ -45,6 +45,7 @@
 		"@sveltejs/vite-plugin-svelte": "^6.0.0",
 		"@tailwindcss/forms": "^0.5.9",
 		"@tailwindcss/vite": "^4.0.0",
+		"@types/node": "^24.3.1",
 		"@vitest/browser": "^3.2.3",
 		"eslint": "^9.18.0",
 		"eslint-config-prettier": "^10.0.1",
@@ -67,5 +68,9 @@
 	},
 	"keywords": [
 		"svelte"
-	]
+	],
+	"dependencies": {
+		"ioredis": "^5.7.0",
+		"nanoid": "^5.1.5"
+	}
 }
